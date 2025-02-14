@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         <MobileImageContainer>
           <ProjectImage
             src={project.imgURL}
-            alt="thryft Image preview"
+            alt={project.title + ' Image'}
           />
         </MobileImageContainer>
         <ContentSection>
@@ -47,7 +47,7 @@ const ProjectCard = ({ project }) => {
       <DesktopImageContainer>
         <ProjectImage
           src={project.imgURL}
-          alt="thryft Image preview"
+          alt={project.projectTitle + ' Image'}
         />
       </DesktopImageContainer>
     </Wrapper>

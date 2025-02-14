@@ -2,12 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Container from './Container';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../../public/ProjectCard';
+
+import watcher_image from '../assets/project_watcher.png';
+import thryft_image from '../assets/project_thryft.png';
 
 const projectData = [
   {
-    id: '02',
-    imgURL: '../src/assets/project_watcher.png',
+    id: '01',
+    imgURL: watcher_image,
     projectTitle: 'WATCHER',
     projectDesc:
       'Watcher is a React movie app styled with styled-components, powered by OMDB API. Features real-time search, a responsive, intuitive interface for seamless browsing. Built for cinephiles who crave simplicity and style.',
@@ -16,8 +19,8 @@ const projectData = [
     liveLink: 'https://watcher-io.netlify.app',
   },
   {
-    id: '01',
-    imgURL: '../src/assets/project_thryft.png',
+    id: '02',
+    imgURL: thryft_image,
     projectTitle: 'thryft',
     projectDesc:
       'This project is built using ReactJS and styled-components to achieve a sleek, modern interface. The design focuses on clean aesthetics and smooth, responsive interactions, resulting in a visually engaging and user-friendly experience.',
